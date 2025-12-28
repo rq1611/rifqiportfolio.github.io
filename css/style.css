@@ -314,7 +314,7 @@ footer {
   background-clip: text;
 }
 
-.other{
+.other {
   margin-top: 20px;
 }
 
@@ -379,7 +379,11 @@ footer {
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 20px;
+  }
+
+  .typing-text {
+    font-size: 12px;
   }
 
   .btn {
