@@ -320,6 +320,11 @@ footer {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  /* navbar */
+  .navbar {
+    padding: 15px 30px;
+  }
+
   .menu-toggle {
     display: flex;
   }
@@ -338,12 +343,100 @@ footer {
     display: flex;
   }
 
+  .logo-r {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .hero-img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  /* SECTION */
   .profile-card {
+    max-width: 100%;
+    padding: 20px;
+    gap: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
     flex-direction: column;
     text-align: center;
   }
 
+  .profile-card img {
+    width: 140px;
+    border-radius: 20px;
+  }
+
+  /* SKILLS */
+  .skill-box {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 15px;
+    font-size: 24px;
+    padding: 0 20px;
+    justify-content: center;
+  }
+
+  .skill-card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .skill-card img {
+    height: 50px;
+    width: auto;
+  }
+
+  /* PROJECTS */
+  .project-box {
+    grid-template-columns: repeat(2, 130px);
+    gap: 20px;
+  }
+
+  .project-card {
+    font-size: 14px;
+  }
+
+  .project-content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-content a {
+    font-size: 14px;
+  }
+
+  /* ORGANISASI */
   .organisasi-box {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 130px);
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .organisasi-card {
+    font-size: 14px;
   }
 }
