@@ -143,12 +143,8 @@ section {
   gap: 40px;
 }
 
-div.profile-img {
-  overflow: auto;
-  background-size: cover;
-  background-image: url(../img/profile1.jpg);
-  width: 800px;
-  height: 300px;
+.profile-card img {
+  width: 180px;
   border-radius: 20px;
 }
 
