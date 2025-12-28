@@ -6,7 +6,7 @@ AOS.init({
 });
 
 // Typing Effect
-const text = "Web Developer • students from Universitas Pasundan";
+const text = "Web Developer • student from Universitas Pasundan";
 const target = document.querySelector(".typing-text");
 let i = 0;
 
