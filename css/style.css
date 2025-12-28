@@ -164,8 +164,8 @@ section {
   transition: 0.3s;
   margin: auto;
   display: flex;
-  flex-direction: row;
   align-items: center;
+  flex-direction: column;
 }
 
 .skill-card img {
@@ -175,6 +175,16 @@ section {
 
 .skill-card:hover {
   transform: translateY(-8px);
+}
+.skill-card .html {
+  margin: 0 40px;
+}
+.skill-card .css {
+  margin: 0 35px;
+}
+
+.skill-card .tailwind {
+  margin: 0 40px;
 }
 
 /* PROJECTS */
@@ -230,21 +240,21 @@ section {
 .organisasi-box {
   margin-top: 40px;
   gap: 20px;
+  padding: 50px;
   font-size: 30px;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  gap: 20px;
 }
 
 .organisasi-card {
   background: #020617;
-  padding: 30px;
+  padding: 30px 10px;
   border-radius: 15px;
   transition: 0.3s;
   margin: auto;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .organisasi-card img {
@@ -254,6 +264,10 @@ section {
 
 .organisasi-card:hover {
   transform: translateY(-8px);
+}
+
+.organisasi-card .fotban {
+  margin: 35px 0px 15px 0px;
 }
 
 /* CONTACT */
@@ -341,6 +355,7 @@ footer {
 
   .nav-menu.active {
     display: flex;
+    padding: 20px;
   }
 
   .logo-r {
@@ -438,5 +453,19 @@ footer {
 
   .organisasi-card {
     font-size: 14px;
+  }
+
+  .organisasi-card .fotban {
+    margin: 10px 0px 15px 0px;
+  }
+
+  .organisasi-card .osis {
+    margin: 10px 0px 15px 0px;
+  }
+
+  .organisasi-card .dkm {
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px;
   }
 }
